@@ -4,7 +4,7 @@
   "description": "Streaming music player that finds music sources automatically.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nukeop/nuclear.git"
+    "url": "git+https://github.com/superlopez-real/nuclear.git"
   },
   "keywords": [
     "electron",
@@ -17,9 +17,9 @@
   },
   "license": "AGPL-3.0",
   "bugs": {
-    "url": "https://github.com/nukeop/nuclear/issues"
+    "url": "https://github.com/superlopez-real/nuclear/issues"
   },
-  "homepage": "https://github.com/nukeop/nuclear#readme",
+  "homepage": "https://github.com/superlopez-real/nuclear#readme",
   "scripts": {
     "postinstall": "lerna bootstrap --hoist --no-ci && electron-builder install-app-deps && electron-rebuild",
     "start": "lerna run start --stream",
